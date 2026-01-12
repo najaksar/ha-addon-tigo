@@ -1,0 +1,19 @@
+name: "Tigo Panels"
+version: "0.1.0"
+slug: "tigo"
+description: "Tigo panel data for Home Assistant Green"
+arch:
+  - aarch64
+
+startup: services
+boot: auto
+
+options:
+  username: ""
+  password: ""
+  system_id: 0
+
+schema:
+  username: str
+  password: password
+  system_id: int
